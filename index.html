@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/UnityBuild.loader.js";
+      var loaderUrl = buildUrl + "/tombo_easter_egg.loader.js";
       var config = {
-        dataUrl: buildUrl + "/UnityBuild.data.gz",
-        frameworkUrl: buildUrl + "/UnityBuild.framework.js.gz",
-        codeUrl: buildUrl + "/UnityBuild.wasm.gz",
+        dataUrl: buildUrl + "/tombo_easter_egg.data",
+        frameworkUrl: buildUrl + "/tombo_easter_egg.framework.js",
+        codeUrl: buildUrl + "/tombo_easter_egg.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "fukashi_computer_team",
         productName: "tombo_easter_egg",
@@ -107,7 +107,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/UnityBuild.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/tombo_easter_egg.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
